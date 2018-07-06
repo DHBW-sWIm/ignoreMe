@@ -41,6 +41,6 @@ notifications:
     template:
       - "%{repository_slug} (%{commit}) : %{message} %{foo} "
       - "Build details: %{build_url}"
-      - "<@leo> :taco:"
+      - "<@trahloff> :taco:"
     rooms:
       - wwi15scb:GL6zGn42jLxtsCd5TAm4M2x6#mdl_ops-test
