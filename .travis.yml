@@ -10,7 +10,7 @@ addons:
 #   - "composer create-project -n --no-dev --prefer-dist moodlerooms/moodle-plugin-ci ci ^2"
 #   - "export PATH=\"$(cd ci/bin; pwd):$(cd ci/vendor/bin; pwd):$PATH\""
   
-cache: 
+cache: dft
   directories: 
     - $HOME/.composer/cache
     - $HOME/.npm
